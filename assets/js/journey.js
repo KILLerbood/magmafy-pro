@@ -14,7 +14,6 @@ const T = {
     s1: { now: 'اليوم', nowItems: ['312 متابع على إنستجرام', 'استفساران في الأسبوع', '0 زيارة معرض من السوشيال', 'آخر منشور قبل 23 يومًا'], who: 'العميل الحقيقي', next: 'الشخصية التالية', goal: 'الأهداف خلال 6 أشهر', goals: ['متجر أونلاين بعرض 3D خلال 6 أسابيع', '180 استفسارًا في الشهر', '60 زيارة معرض شهريًا'], plan: 'الخطة', planSteps: ['دراسة السوق', 'متجر 3D', 'الرسائل', 'الإعلانات'],
       personas: [{ name: 'سارة ومحمد، 27', role: 'عرسان جدد · يجهّزون أول بيت', quote: 'نبغى صالة شيك بميزانية معقولة، ونبغى نشوف القطعة في بيت حقيقي قبل ما نقرر.' }, { name: 'أبو خالد، 44', role: 'عائلة تنتقل لفيلا جديدة', quote: 'أبي أأثث البيت كامل من مكان واحد، مع تقسيط وتركيب.' }, { name: 'ريم، 35', role: 'مديرة مكتب · تشتري لشركة', quote: 'أحتاج عرض سعر رسمي وتسليم سريع لـ 20 كرسي.' }],
       comp: 'المنافسون في الرياض', compRows: [['منافس أ', 'ينشر 3 مرات/أسبوع', 'يرد بعد 6 ساعات'], ['منافس ب', 'بدون موقع', 'لا يرد على التعليقات'], ['دار ليفينج + Magmafy', 'يوميًا', 'رد خلال دقائق']] },
-    s2: { before: 'قبل · صورة جوال', after: 'بعد · مشهد AI', drag: 'اسحب الخط لتقارن', sl: 'مقارنة قبل وبعد', items: [['ba-v', 'الكنبة المخمل'], ['ba-c', 'الكرسي البرتقالي'], ['ba-l', 'الكنبة الجلد']], kept: ['نفس الشكل', 'نفس الخامة', 'نفس اللون'], ai: 'مشهد مولَّد بالذكاء الاصطناعي' },
     s3: { url: 'dar-living.sa', home: 'الرئيسية', shop: 'المتجر', heroT: 'بيتك الجديد يبدأ من هنا', heroP: 'أثاث مختار بعناية، توصيل وتركيب مجاني داخل الرياض.', toShop: 'تسوّق الآن', best: 'الأكثر طلبًا', add: 'أضف إلى السلة', added: 'تمت الإضافة ✓', visit: 'احجز زيارة لتجربتها', visitDone: 'تم حجز زيارتك السبت 5 م ✓', fabric: 'القماش', size: 'المقاس', back: '→ رجوع', cart: 'السلة', empty: 'سلتك فارغة.', sub: 'المجموع', ship: 'التوصيل والتركيب', free: 'مجاني', total: 'الإجمالي', checkout: 'إتمام الطلب', thanks: 'شكرًا لطلبك!', order: 'رقم الطلب', demo: 'تجربة توضيحية: لا يتم طلب أو دفع أي شيء.', again: 'متابعة التسوق', tabby: 'أو 4 دفعات بدون فوائد', view3d: '360° عرض', seats: ['3 مقاعد', 'مقعدين'] },
     s4: { trigger: 'جرّب رسالة جديدة', running: 'جارٍ…', flow: [['رسالة جديدة على إنستجرام', '«كم سعر الكنبة الجلد؟» · {n}'], ['رد تلقائي خلال 40 ثانية', 'السعر + الكتالوج + خيارات التقسيط'], ['تأهيل العميل', 'المدينة: الرياض · الميزانية: 8–10 آلاف'], ['حجز زيارة', 'السبت 5:00 م · فرع العليا'], ['تذكير على واتساب', '«ننتظرك بكرة الساعة 5 ☕»'], ['تحديث CRM', 'العميل ← «فرصة ساخنة»']], done: 'رسالة تمت معالجتها', saved: 'مواعيد محجوزة', manual: 'قبل الأتمتة: متوسط الرد 6 ساعات، ونصف الرسائل بدون رد.' },
     s5: { title: 'مساعد دار ليفينج', tag: 'AI', aiLabel: 'رد بالذكاء الاصطناعي', hello: 'أهلًا وسهلًا! أقدر أساعدك تلاقي القطعة المناسبة لبيتك 🛋️', note: 'تجربة توضيحية: الردود مُعدّة مسبقًا ومعلَّمة بأنها من الذكاء الاصطناعي.',
@@ -28,7 +27,6 @@ const T = {
     s1: { now: 'Today', nowItems: ['312 Instagram followers', '2 enquiries a week', '0 showroom visits from social', 'Last post 23 days ago'], who: 'The real customer', next: 'Next persona', goal: 'Goals in 6 months', goals: ['An online store with 3D in 6 weeks', '180 enquiries a month', '60 showroom visits a month'], plan: 'Plan', planSteps: ['Research', '3D store', 'DMs', 'Ads'],
       personas: [{ name: 'Sara & Mohammed, 27', role: 'Newly-weds · furnishing a first home', quote: 'We want a stylish living room on a sensible budget, and to see the piece in a real home before we decide.' }, { name: 'Abu Khalid, 44', role: 'Family moving to a new villa', quote: 'I want to furnish the whole house in one place, with instalments and assembly.' }, { name: 'Reem, 35', role: 'Office manager · buying for a company', quote: 'I need a formal quote and fast delivery for 20 chairs.' }],
       comp: 'Competitors in Riyadh', compRows: [['Competitor A', 'posts 3×/week', 'replies after 6 h'], ['Competitor B', 'no website', 'ignores comments'], ['Dar Living + Magmafy', 'daily', 'replies in minutes']] },
-    s2: { before: 'Before · phone photo', after: 'After · AI scene', drag: 'Drag the line to compare', sl: 'Before and after comparison', items: [['ba-v', 'Velvet sofa'], ['ba-c', 'Orange chair'], ['ba-l', 'Leather sofa']], kept: ['Same shape', 'Same material', 'Same colour'], ai: 'AI-generated scene' },
     s3: { url: 'dar-living.sa', home: 'Home', shop: 'Shop', heroT: 'Your new home starts here', heroP: 'Carefully chosen furniture, free delivery and assembly in Riyadh.', toShop: 'Shop now', best: 'Best sellers', add: 'Add to cart', added: 'Added ✓', visit: 'Book a visit to try it', visitDone: 'Visit booked: Saturday 5 PM ✓', fabric: 'Fabric', size: 'Size', back: '← Back', cart: 'Cart', empty: 'Your cart is empty.', sub: 'Subtotal', ship: 'Delivery & assembly', free: 'free', total: 'Total', checkout: 'Checkout', thanks: 'Thank you for your order!', order: 'Order no.', demo: 'Demo: nothing is ordered or paid.', again: 'Keep shopping', tabby: 'or 4 interest-free payments', view3d: '360° view', seats: ['3-seater', '2-seater'] },
     s4: { trigger: 'Try a new message', running: 'Running…', flow: [['New Instagram DM', '“How much is the leather sofa?” · {n}'], ['Auto-reply in 40 seconds', 'Price + catalogue + instalment options'], ['Lead qualified', 'City: Riyadh · Budget: SAR 8–10k'], ['Visit booked', 'Saturday 5:00 PM · Olaya branch'], ['WhatsApp reminder', '“See you tomorrow at 5 ☕”'], ['CRM updated', 'Customer → “hot lead”']], done: 'messages handled', saved: 'visits booked', manual: 'Before automation: replies took 6 hours on average, and half the messages went unanswered.' },
     s5: { title: 'Dar Living assistant', tag: 'AI', aiLabel: 'AI-generated reply', hello: 'Welcome! I can help you find the right piece for your home 🛋️', note: 'Demo: replies are prepared in advance and labelled as AI.',
@@ -74,61 +72,6 @@ function board() {
     h('div', { class: 'jx-comp' }, h('h4', {}, s.comp),
       h('ul', {}, ...s.compRows.map((r, i) => h('li', { class: i === 2 ? 'is-us' : '' }, h('b', {}, r[0]), h('span', {}, r[1]), h('span', {}, r[2]))))),
     h('div', { class: 'jx-plan' }, h('b', {}, s.plan), ...s.planSteps.map((p, i) => h('span', {}, h('i', {}, String(i + 1)), p))));
-}
-
-/* ---------- 02 AI content: phone photo vs. AI scene ---------- */
-function aiCompare() {
-  const s = tx().s2;
-  let cur = 0;
-  const before = pic(s.items[0][0] + '-before', ''), after = pic(s.items[0][0] + '-after', '');
-  const wrap = h('div', { class: 'jx-compare', role: 'slider', tabindex: '0', 'aria-label': s.sl, 'aria-valuemin': '0', 'aria-valuemax': '100', dir: 'ltr' },
-    h('div', { class: 'jx-layer jx-layer--old' }, before),
-    h('div', { class: 'jx-layer jx-layer--new' }, after, h('span', { class: 'jx-aimark' }, '✦ ' + s.ai)),
-    h('div', { class: 'jx-handle', 'aria-hidden': 'true' }, h('span', {}, '⟷')),
-    h('span', { class: 'jx-ba jx-ba--l' }, s.before), h('span', { class: 'jx-ba jx-ba--r' }, s.after));
-  let raf = 0;
-  // --pos is measured from the left edge; the "after" scene is revealed on the right of the line.
-  const set = (p) => { p = Math.max(0, Math.min(100, p)); setVar(wrap, '--pos', p + '%'); wrap.setAttribute('aria-valuenow', String(Math.round(p))); };
-  const fromX = (e) => { const r = wrap.getBoundingClientRect(); set(((e.clientX - r.left) / r.width) * 100); };
-  let drag = false;
-  wrap.addEventListener('pointerdown', (e) => { cancelAnimationFrame(raf); drag = true; wrap.setPointerCapture(e.pointerId); fromX(e); });
-  wrap.addEventListener('pointermove', (e) => { if (drag) fromX(e); });
-  wrap.addEventListener('pointerup', () => { drag = false; });
-  wrap.addEventListener('keydown', (e) => {
-    const v = Number(wrap.getAttribute('aria-valuenow'));
-    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') { e.preventDefault(); cancelAnimationFrame(raf); set(v + (e.key === 'ArrowRight' ? 5 : -5)); }
-  });
-  const intro = () => {
-    if (reduced) { set(50); return; }
-    set(100);
-    const t0 = performance.now();
-    const ease = (t) => 1 - Math.pow(1 - t, 3);
-    const step = (now) => {
-      const t = (now - t0) / 1000;
-      if (t < 0.4) set(100);
-      else if (t < 1.9) set(100 - 100 * ease((t - 0.4) / 1.5));
-      else if (t < 3.2) set(50 * ease(Math.min(1, (t - 2.2) / 1)));
-      if (t < 3.2 && wrap.isConnected) raf = requestAnimationFrame(step);
-    };
-    raf = requestAnimationFrame(step);
-  };
-  const tabs = s.items.map(([key, name], i) => {
-    const b = h('button', { type: 'button', class: 'jx-chip', 'aria-pressed': String(i === 0) }, name);
-    b.addEventListener('click', () => {
-      if (cur === i) return;
-      cur = i;
-      tabs.forEach((x, k) => x.setAttribute('aria-pressed', String(k === i)));
-      before.src = IMG + key + '-before.webp'; after.src = IMG + key + '-after.webp';
-      cancelAnimationFrame(raf); intro();
-    });
-    return b;
-  });
-  intro();
-  return h('div', { class: 'jx jx--brand' },
-    h('div', { class: 'jx-chips jx-chips--center' }, ...tabs),
-    wrap,
-    h('p', { class: 'jx-hint' }, '↔ ', s.drag),
-    h('div', { class: 'jx-kept' }, ...s.kept.map((k) => h('span', {}, icon('check', 14), k))));
 }
 
 /* ---------- 03 Online showroom ---------- */
