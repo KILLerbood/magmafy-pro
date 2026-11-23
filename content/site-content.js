@@ -151,7 +151,7 @@ window.MG_CONTENT = {
             "label": "اجتماع أول مدته 30 دقيقة"
           }
         ],
-        "note": "نتائج كل عميل تختلف، ونقيسها على حملتك أنت: استفسارات، زيارات، وتكلفة كل نتيجة. موسم الجمعة البيضاء (27 نوفمبر) على الأبواب والمعارض تجهّز حملاتها الآن، فالبدء هذا الأسبوع هو الأنسب."
+        "note": "نتائج كل عميل تختلف، ونقيسها على حملتك أنت: استفسارات، زيارات، وتكلفة كل نتيجة."
       },
       "about": {
         "eyebrow": "فريق واحد. كل ما يحتاجه معرضك ليبيع أونلاين.",
@@ -851,7 +851,7 @@ window.MG_CONTENT = {
             "label": "30-minute first meeting"
           }
         ],
-        "note": "Results differ for every client, and we measure them on your own campaign: enquiries, visits and cost per result. White Friday (27 November) is close and showrooms are preparing their campaigns now, so starting this week is the best timing."
+        "note": "Results differ for every client, and we measure them on your own campaign: enquiries, visits and cost per result."
       },
       "about": {
         "eyebrow": "One team. Everything your showroom needs to sell online.",
