@@ -150,7 +150,7 @@ export function bookingPage() {
     const bar = '━━━━━━━━━━';
     const probs = st.problems.map((id) => title(problems, id)).filter(Boolean);
     const goal = title(goals, st.goal), branches = title(branchOpts, st.branch), price = title(priceOpts, st.price);
-    const now = probs.length > 1 ? [wa.now, ...probs.map((p) => '• ' + p)] : [wa.now + ' ' + probs[0]];
+    const now = probs.length > 1 ? [wa.now, ...probs.map((p) => '   - ' + p)] : [wa.now + ' ' + probs[0]];
     const text = [
       wa.title, bar,
       wa.who + ' ' + data.name,
