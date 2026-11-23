@@ -110,7 +110,7 @@ window.MG_CONTENT = {
   "i18n": {
     "ar": {
       "meta": {
-        "homeTitle": "وكالة نمو لمعارض الأثاث والديكور في السعودية"
+        "homeTitle": "وكالة نمو لمعارض الأثاث والمفروشات في الرياض"
       },
       "nav": {
         "home": "الرئيسية",
@@ -130,10 +130,10 @@ window.MG_CONTENT = {
         "more": "المزيد"
       },
       "hero": {
-        "eyebrow": "Magmafy — وكالة نمو متخصصة في الأثاث والديكور",
+        "eyebrow": "Magmafy — وكالة نمو لمعارض الأثاث والمفروشات في الرياض",
         "title1": "استفسارات أكثر،",
         "title2": "وزيارات أكثر لمعرضك.",
-        "text": "نشغّل إعلاناتك على سناب وميتا وتيك توك، ونردّ على كل رسالة بسرعة، ونحجز لصاحبها موعد زيارة للمعرض. نبدأ بخدمة واحدة واضحة، ونقيس النتيجة بالاستفسارات والزيارات لا بالإعجابات.",
+        "text": "نشغّل إعلاناتك على سناب وميتا وتيك توك، ونردّ بسرعة على كل رسالة عن سعر القطعة أو الطقم، ونحجز لصاحبها موعد معاينة في المعرض. نبدأ بخدمة واحدة واضحة، ونقيس النتيجة بالاستفسارات والزيارات لا بالإعجابات.",
         "cta": "احجز اجتماعًا مجانيًا",
         "cta2": "شاهد كيف تعمل الخدمة",
         "scroll": "مرّر للأسفل",
@@ -158,7 +158,7 @@ window.MG_CONTENT = {
         "title": "تعرّف على",
         "titleAccent": "Magmafy",
         "paragraphs": [
-          "Magmafy وكالة نمو متخصصة في معارض الأثاث والديكور ومتاجرها، تركّز على السوق السعودي ودول الخليج. نفهم كيف يشتري عميلك: يتصفّح إنستجرام وبنترست، يسأل عن السعر والتقسيط في الرسائل، ثم يزور المعرض قبل أن يقرر.",
+          "Magmafy وكالة نمو متخصصة في معارض الأثاث والمفروشات ومتاجرها، نبدأ من الرياض ثم دول الخليج. نفهم كيف يشتري عميلك: يتصفّح سناب وإنستجرام، يسأل عن سعر القطعة أو الطقم والتقسيط في الرسائل، ثم يعاين القطعة في المعرض قبل أن يقرر.",
           "لذلك نبدأ بدراسة السوق، ثم نبني المحتوى والإعلانات والموقع حول رحلة الشراء الحقيقية: صور وريلز بالذكاء الاصطناعي من صور جوالك، حملات تصل لمن يجهّز بيته الآن، ومعارض ثلاثية الأبعاد يلفّ فيها العميل القطعة ويختار لونها.",
           "نعمل بأدوات حديثة مدعومة بالذكاء الاصطناعي، فننجز في أسابيع ما يأخذ شهورًا، ومعك مدير حساب واحد من أول اجتماع إلى أول طلب. ونقيس النجاح بالاستفسارات وزيارات المعرض والمبيعات، لا بالإعجابات."
         ],
@@ -275,7 +275,7 @@ window.MG_CONTENT = {
           {
             "title": "الرسائل إلى مواعيد",
             "tag": "مستمر",
-            "text": "كل رسالة فرصة: رد خلال دقائق، تأهيل، ثم موعد زيارة في التقويم وتذكير على واتساب. تلقائيًا."
+            "text": "كل رسالة فرصة: رد خلال دقائق، تأهيل، ثم موعد معاينة في المعرض وتذكير على واتساب. تلقائيًا."
           },
           {
             "title": "مساعد ذكي",
@@ -296,7 +296,7 @@ window.MG_CONTENT = {
         "items": [
           {
             "title": "متخصصون في الأثاث والديكور فقط",
-            "text": "نعرف مواسم البيع وأسئلة العملاء، وما الذي يقنع العريس والعائلة ومدير المكتب. لا نجرّب على حسابك."
+            "text": "نعرف مواسم البيع وأسئلة العملاء، وما الذي يقنع العريس والعائلة ومدير المكتب، ونتكلم بلغة المعرض: قطعة وطقم ومجلس وتنجيد ومعاينة. لا نجرّب على حسابك."
           },
           {
             "title": "الذكاء الاصطناعي في كل خطوة",
@@ -806,7 +806,7 @@ window.MG_CONTENT = {
     },
     "en": {
       "meta": {
-        "homeTitle": "Growth agency for furniture & décor showrooms in Saudi Arabia"
+        "homeTitle": "Growth agency for furniture & furnishing showrooms in Riyadh"
       },
       "nav": {
         "home": "Home",
@@ -826,10 +826,10 @@ window.MG_CONTENT = {
         "more": "More"
       },
       "hero": {
-        "eyebrow": "Magmafy — the growth agency for furniture & décor",
+        "eyebrow": "Magmafy — growth agency for furniture & furnishing showrooms in Riyadh",
         "title1": "More enquiries,",
         "title2": "more showroom visits.",
-        "text": "We run your ads on Snapchat, Meta and TikTok, answer every message fast, and book each lead a showroom visit. We start with one clear service and measure results in enquiries and visits, not likes.",
+        "text": "We run your ads on Snapchat, Meta and TikTok, answer every message about the price of a piece or a set fast, and book each lead a showroom viewing. We start with one clear service and measure results in enquiries and visits, not likes.",
         "cta": "Book a free meeting",
         "cta2": "See how it works",
         "scroll": "Scroll",
@@ -854,7 +854,7 @@ window.MG_CONTENT = {
         "title": "Meet",
         "titleAccent": "Magmafy",
         "paragraphs": [
-          "Magmafy is a growth agency for furniture and décor showrooms and stores, focused on Saudi Arabia and the Gulf. We know how your customers buy: they browse Instagram and Pinterest, ask about price and instalments in DMs, then visit the showroom before they decide.",
+          "Magmafy is a growth agency for furniture and furnishing showrooms and stores, starting in Riyadh and growing across the Gulf. We know how your customers buy: they browse Snapchat and Instagram, ask about the price of a piece or a set and instalments in DMs, then see the piece at the showroom before they decide.",
           "So we start with market research, then build content, ads and your website around the real buying journey: AI photos and reels made from your phone shots, campaigns that reach people furnishing a home right now, and 3D showrooms where customers spin a piece and pick its colour.",
           "We work with modern, AI-assisted tools, so what usually takes months takes weeks, with one account manager from the first meeting to the first order. And we measure success in enquiries, showroom visits and sales, not likes."
         ],
@@ -971,7 +971,7 @@ window.MG_CONTENT = {
           {
             "title": "DMs to appointments",
             "tag": "Ongoing",
-            "text": "Every message is a lead: a reply within minutes, qualification, then a visit in the calendar and a WhatsApp reminder. Automatically."
+            "text": "Every message is a lead: a reply within minutes, qualification, then a showroom viewing booked and a WhatsApp reminder. Automatically."
           },
           {
             "title": "Smart assistant",
@@ -992,7 +992,7 @@ window.MG_CONTENT = {
         "items": [
           {
             "title": "Furniture and décor only",
-            "text": "We know the buying seasons, the questions customers ask, and what convinces a newly-wed couple, a family or an office manager. No experiments on your account."
+            "text": "We know the buying seasons, the questions customers ask, and what convinces a newly-wed couple, a family or an office manager, and we speak the showroom's language: pieces, sets, majlis seating, upholstery and viewings. No experiments on your account."
           },
           {
             "title": "AI in every step",
