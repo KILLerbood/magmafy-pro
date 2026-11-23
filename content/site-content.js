@@ -159,7 +159,7 @@ window.MG_CONTENT = {
         "titleAccent": "Magmafy",
         "paragraphs": [
           "Magmafy وكالة نمو متخصصة في معارض الأثاث والمفروشات ومتاجرها، نبدأ من الرياض ثم دول الخليج. نفهم كيف يشتري عميلك: يتصفّح سناب وإنستجرام، يسأل عن سعر القطعة أو الطقم والتقسيط في الرسائل، ثم يعاين القطعة في المعرض قبل أن يقرر.",
-          "لذلك نبدأ بدراسة السوق، ثم نبني المحتوى والإعلانات والموقع حول رحلة الشراء الحقيقية: صور وريلز بالذكاء الاصطناعي من صور جوالك، حملات تصل لمن يجهّز بيته الآن، ومعارض ثلاثية الأبعاد يلفّ فيها العميل القطعة ويختار لونها.",
+          "لذلك نبدأ بخدمة واحدة: إعلانات ورسائل تتحوّل إلى زيارات. وبعد أول نتيجة نضيف ما يحتاجه معرضك: دراسة السوق، وصور وريلز بالذكاء الاصطناعي من صور جوالك، ومعارض ثلاثية الأبعاد يلفّ فيها العميل القطعة ويختار لونها.",
           "نعمل بأدوات حديثة مدعومة بالذكاء الاصطناعي، فننجز في أسابيع ما يأخذ شهورًا، ومعك مدير حساب واحد من أول اجتماع إلى أول طلب. ونقيس النجاح بالاستفسارات وزيارات المعرض والمبيعات، لا بالإعجابات."
         ],
         "cta": "ناقش مشروعك معنا",
@@ -225,7 +225,7 @@ window.MG_CONTENT = {
           "num": "03",
           "title": "المواقع والمعارض 3D",
           "tagline": "خلّي عميلك يلفّ القطعة ويختار لونها قبل ما يزور المعرض",
-          "intro": "مواقع ومتاجر سريعة بالعربي والإنجليزي، فيها عرض ثلاثي الأبعاد للقطع، تغيير القماش والألوان، وزر حجز زيارة أو طلب سعر عبر واتساب. وتعمل بسلاسة على الجوال.",
+          "intro": "ترقية تضيفها بعد أول نتيجة إعلانية: مواقع ومتاجر سريعة بالعربي والإنجليزي، فيها عرض ثلاثي الأبعاد للقطع، تغيير القماش والألوان، وزر حجز زيارة أو طلب سعر عبر واتساب. وتعمل بسلاسة على الجوال.",
           "items": [
             "مواقع تعريفية ومعارض أونلاين بالعربي والإنجليزي",
             "عرض 3D و360° للقطع مع تغيير الخامات والألوان",
@@ -269,8 +269,8 @@ window.MG_CONTENT = {
           },
           {
             "title": "معرض 3D أونلاين",
-            "tag": "الأسبوع 3–6",
-            "text": "متجر يتصفّح فيه العميل المجموعات، يختار القماش، ويضيف للسلة أو يحجز زيارة. جرّبه بنفسك."
+            "tag": "بعد أول نتيجة",
+            "text": "ترقية نضيفها بعد أول نتيجة إعلانية: متجر يتصفّح فيه العميل المجموعات، يختار القماش، ويضيف للسلة أو يحجز زيارة. جرّبه بنفسك."
           },
           {
             "title": "الرسائل إلى مواعيد",
@@ -859,7 +859,7 @@ window.MG_CONTENT = {
         "titleAccent": "Magmafy",
         "paragraphs": [
           "Magmafy is a growth agency for furniture and furnishing showrooms and stores, starting in Riyadh and growing across the Gulf. We know how your customers buy: they browse Snapchat and Instagram, ask about the price of a piece or a set and instalments in DMs, then see the piece at the showroom before they decide.",
-          "So we start with market research, then build content, ads and your website around the real buying journey: AI photos and reels made from your phone shots, campaigns that reach people furnishing a home right now, and 3D showrooms where customers spin a piece and pick its colour.",
+          "So we start with one service: ads and messages that turn into visits. After the first result we add what your showroom needs: market research, AI photos and reels made from your phone shots, and 3D showrooms where customers spin a piece and pick its colour.",
           "We work with modern, AI-assisted tools, so what usually takes months takes weeks, with one account manager from the first meeting to the first order. And we measure success in enquiries, showroom visits and sales, not likes."
         ],
         "cta": "Talk to us about your project",
@@ -925,7 +925,7 @@ window.MG_CONTENT = {
           "num": "03",
           "title": "Websites & 3D showrooms",
           "tagline": "Let customers spin a piece and pick its colour before they visit",
-          "intro": "Fast websites and stores in Arabic and English with 3D product views, fabric and colour switching, and a button to book a visit or ask for a price on WhatsApp. Smooth on every phone.",
+          "intro": "An upgrade you add after the first ad result: fast websites and stores in Arabic and English with 3D product views, fabric and colour switching, and a button to book a visit or ask for a price on WhatsApp. Smooth on every phone.",
           "items": [
             "Brand websites and online showrooms in Arabic and English",
             "3D and 360° product views with live material and colour changes",
@@ -969,8 +969,8 @@ window.MG_CONTENT = {
           },
           {
             "title": "3D online showroom",
-            "tag": "Weeks 3–6",
-            "text": "A store where customers browse collections, choose a fabric and add to cart or book a visit. Try it yourself."
+            "tag": "After the first result",
+            "text": "An upgrade we add after the first ad result: a store where customers browse collections, choose a fabric and add to cart or book a visit. Try it yourself."
           },
           {
             "title": "DMs to appointments",
