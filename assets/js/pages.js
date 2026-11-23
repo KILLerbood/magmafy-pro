@@ -8,8 +8,10 @@ import { bookingPage } from './booking.js';
 const arr = (v) => (Array.isArray(v) ? v : []);
 
 function splitWords(text, cls = '') {
-  return str(text).split(/\s+/).filter(Boolean).map((w) =>
-    h('span', { class: 'word ' + cls }, h('span', { class: 'word__inner' }, w)));
+  // A real space sits between the word spans so copy/paste, screen readers and crawlers read normal text.
+  return str(text).split(/\s+/).filter(Boolean).flatMap((w, i) => [
+    i ? ' ' : null,
+    h('span', { class: 'word ' + cls }, h('span', { class: 'word__inner' }, w))]);
 }
 
 function heading({ eyebrow, title, accent, level = 'h2', id }) {
@@ -31,13 +33,14 @@ function hero() {
     h('div', { class: 'container hero__inner' },
       h('p', { class: 'eyebrow hero__eyebrow' }, t('hero.eyebrow')),
       h('h1', { class: 'hero__title', id: 'hero-title' },
-        h('span', { class: 'hero__line' }, ...splitWords(t('hero.title1'))),
+        h('span', { class: 'hero__line' }, ...splitWords(t('hero.title1'))), ' ',
         h('span', { class: 'hero__line hero__line--accent' }, ...splitWords(t('hero.title2')))),
       h('p', { class: 'hero__text' }, t('hero.text')),
       h('div', { class: 'hero__actions' },
         button(t('hero.cta'), 'booking.html'),
         button(t('hero.cta2'), '#services', 'ghost', false)),
-      h('ul', { class: 'hero__chips' }, ...arr(t('hero.chips')).map((c) => h('li', {}, h('b', { dir: 'ltr' }, c.value), h('span', {}, c.label))))),
+      h('ul', { class: 'hero__chips' }, ...arr(t('hero.chips')).map((c) => h('li', {}, h('b', {}, c.value), ' ', h('span', {}, c.label)))),
+      t('hero.note') ? h('p', { class: 'hero__note' }, t('hero.note')) : null),
     h('a', { class: 'scroll-cue', href: '#about' }, h('span', {}, t('hero.scroll')), h('span', { class: 'scroll-cue__line', 'aria-hidden': 'true' })));
 }
 
@@ -50,29 +53,38 @@ function about() {
         h('div', { 'data-reveal': '' }, button(t('about.cta'), 'booking.html', 'ghost'))),
       h('ul', { class: 'stats' },
         ...arr(t('about.stats')).map((s) => h('li', { class: 'stat', 'data-reveal': '' },
-          h('span', { class: 'stat__value' }, s.value),
+          h('span', { class: 'stat__value' }, s.value), ' ',
           h('span', { class: 'stat__label' }, s.label))))));
 }
 
-function serviceCard(key) {
+function serviceCard(key, featured = false) {
   const s = t('services.' + key) || {};
-  return h('li', { class: 'svc-card', 'data-reveal': '', 'data-service': key, 'data-tilt': '' },
+  return h('li', { class: 'svc-card' + (featured ? ' svc-card--featured' : ''), 'data-reveal': '', 'data-service': key, 'data-tilt': '' },
     h('a', { class: 'svc-card__link', href: SERVICE_PAGES[key] },
       h('span', { class: 'svc-card__glow', 'aria-hidden': 'true' }),
       h('span', { class: 'svc-card__top' },
         h('span', { class: 'svc-card__icon' }, icon(key, 26)),
-        h('span', { class: 'svc-card__num' }, s.num)),
-      h('span', { class: 'svc-card__title' }, s.title),
-      h('span', { class: 'svc-card__tagline' }, s.tagline),
-      h('span', { class: 'svc-card__more' }, t('servicesIntro.more'), icon('arrow', 16))));
+        featured ? h('span', { class: 'svc-card__badge' }, t('servicesIntro.featuredBadge')) : h('span', { class: 'svc-card__num' }, s.num)),
+      ' ',
+      h('span', { class: 'svc-card__title' }, s.title), ' ',
+      h('span', { class: 'svc-card__tagline' }, s.tagline), ' ',
+      featured ? h('span', { class: 'svc-card__intro' }, s.intro) : null,
+      featured ? ' ' : null,
+      h('span', { class: 'svc-card__more' }, featured ? t('servicesIntro.featuredCta') : t('servicesIntro.more'), icon('arrow', 16))));
 }
 
 function services() {
+  const FEATURED = 'content';
+  const later = SERVICE_KEYS.filter((k) => k !== FEATURED);
   return h('section', { class: 'section services', id: 'services', 'data-shape': 'services' },
     h('div', { class: 'container' },
       heading({ eyebrow: t('servicesIntro.eyebrow'), title: t('servicesIntro.title') }),
       h('p', { class: 'lead', 'data-reveal': '' }, t('servicesIntro.text')),
-      h('ul', { class: 'svc-grid' }, ...SERVICE_KEYS.map(serviceCard))));
+      h('ul', { class: 'svc-grid svc-grid--featured' }, serviceCard(FEATURED, true)),
+      h('div', { class: 'svc-later', 'data-reveal': '' },
+        h('h3', { class: 'svc-later__title' }, t('servicesIntro.laterTitle')),
+        h('p', { class: 'svc-later__text' }, t('servicesIntro.laterText'))),
+      h('ul', { class: 'svc-grid svc-grid--later' }, ...later.map((k) => serviceCard(k)))));
 }
 
 function journeySection() {
@@ -82,8 +94,8 @@ function journeySection() {
   const stage = h('div', { class: 'journey__stage', 'aria-live': 'polite' });
   const btns = steps.map((s, i) => {
     const b = h('button', { type: 'button', class: 'journey__step', role: 'tab', 'aria-selected': String(i === 0), id: 'jt-' + i, 'aria-controls': 'journey-panel' },
-      h('span', { class: 'journey__num' }, String(i + 1).padStart(2, '0')),
-      h('span', { class: 'journey__label' }, h('b', {}, s.title), h('small', {}, s.tag)),
+      h('span', { class: 'journey__num' }, String(i + 1).padStart(2, '0')), ' ',
+      h('span', { class: 'journey__label' }, h('b', {}, s.title), ' ', h('small', {}, s.tag)),
       h('span', { class: 'journey__bar', 'aria-hidden': 'true' }, h('i')));
     b.addEventListener('click', () => { userPicked = true; stop(); show(i); });
     return b;

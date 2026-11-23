@@ -1,5 +1,5 @@
 // Homepage journey showcase: one example client, "Dar Living" (a small furniture showroom in
-// Riyadh), followed through all six steps from a silent Instagram account to a busy showroom.
+// Riyadh), followed through all five steps from a silent Instagram account to a busy showroom.
 // Every step is a small live demo the visitor can play with.
 import { h, icon, getLang } from './core.js';
 import { money, num, sleep, reduced } from './demos/kit.js';
@@ -11,8 +11,8 @@ const T = {
   ar: {
     client: { label: 'عميل توضيحي', name: 'دار ليفينج', desc: 'معرض أثاث عائلي صغير في الرياض منذ 2009. قطع جميلة وأسعار منافسة، لكن الحساب صامت والزوار من الحي فقط.', goal: 'الهدف: معرض مزدحم ومبيعات أونلاين في كل المملكة' },
     example: 'مثال: دار ليفينج · الرياض',
-    s1: { now: 'اليوم', nowItems: ['312 متابع على إنستجرام', 'استفساران في الأسبوع', '0 زيارة معرض من السوشيال', 'آخر منشور قبل 23 يومًا'], who: 'العميل الحقيقي', next: 'الشخصية التالية', goal: 'الأهداف خلال 6 أشهر', goals: ['متجر أونلاين بعرض 3D خلال 6 أسابيع', '180 استفسارًا في الشهر', '60 زيارة معرض شهريًا'], plan: 'الخطة', planSteps: ['دراسة السوق', 'محتوى AI', 'متجر 3D', 'الرسائل', 'الإعلانات'],
-      personas: [{ name: 'سارة ومحمد، 27', role: 'عرسان جدد · يجهّزون أول بيت', quote: 'نبي صالة شيك بميزانية معقولة، ونبي نشوف القطعة في بيت حقيقي قبل ما نقرر.' }, { name: 'أبو خالد، 44', role: 'عائلة تنتقل لفيلا جديدة', quote: 'أبي أأثث البيت كامل من مكان واحد، مع تقسيط وتركيب.' }, { name: 'ريم، 35', role: 'مديرة مكتب · تشتري لشركة', quote: 'أحتاج عرض سعر رسمي وتسليم سريع لـ 20 كرسي.' }],
+    s1: { now: 'اليوم', nowItems: ['312 متابع على إنستجرام', 'استفساران في الأسبوع', '0 زيارة معرض من السوشيال', 'آخر منشور قبل 23 يومًا'], who: 'العميل الحقيقي', next: 'الشخصية التالية', goal: 'الأهداف خلال 6 أشهر', goals: ['متجر أونلاين بعرض 3D خلال 6 أسابيع', '180 استفسارًا في الشهر', '60 زيارة معرض شهريًا'], plan: 'الخطة', planSteps: ['دراسة السوق', 'متجر 3D', 'الرسائل', 'الإعلانات'],
+      personas: [{ name: 'سارة ومحمد، 27', role: 'عرسان جدد · يجهّزون أول بيت', quote: 'نبغى صالة شيك بميزانية معقولة، ونبغى نشوف القطعة في بيت حقيقي قبل ما نقرر.' }, { name: 'أبو خالد، 44', role: 'عائلة تنتقل لفيلا جديدة', quote: 'أبي أأثث البيت كامل من مكان واحد، مع تقسيط وتركيب.' }, { name: 'ريم، 35', role: 'مديرة مكتب · تشتري لشركة', quote: 'أحتاج عرض سعر رسمي وتسليم سريع لـ 20 كرسي.' }],
       comp: 'المنافسون في الرياض', compRows: [['منافس أ', 'ينشر 3 مرات/أسبوع', 'يرد بعد 6 ساعات'], ['منافس ب', 'بدون موقع', 'لا يرد على التعليقات'], ['دار ليفينج + Magmafy', 'يوميًا', 'رد خلال دقائق']] },
     s2: { before: 'قبل · صورة جوال', after: 'بعد · مشهد AI', drag: 'اسحب الخط لتقارن', sl: 'مقارنة قبل وبعد', items: [['ba-v', 'الكنبة المخمل'], ['ba-c', 'الكرسي البرتقالي'], ['ba-l', 'الكنبة الجلد']], kept: ['نفس الشكل', 'نفس الخامة', 'نفس اللون'], ai: 'مشهد مولَّد بالذكاء الاصطناعي' },
     s3: { url: 'dar-living.sa', home: 'الرئيسية', shop: 'المتجر', heroT: 'بيتك الجديد يبدأ من هنا', heroP: 'أثاث مختار بعناية، توصيل وتركيب مجاني داخل الرياض.', toShop: 'تسوّق الآن', best: 'الأكثر طلبًا', add: 'أضف إلى السلة', added: 'تمت الإضافة ✓', visit: 'احجز زيارة لتجربتها', visitDone: 'تم حجز زيارتك السبت 5 م ✓', fabric: 'القماش', size: 'المقاس', back: '→ رجوع', cart: 'السلة', empty: 'سلتك فارغة.', sub: 'المجموع', ship: 'التوصيل والتركيب', free: 'مجاني', total: 'الإجمالي', checkout: 'إتمام الطلب', thanks: 'شكرًا لطلبك!', order: 'رقم الطلب', demo: 'تجربة توضيحية: لا يتم طلب أو دفع أي شيء.', again: 'متابعة التسوق', tabby: 'أو 4 دفعات بدون فوائد', view3d: '360° عرض', seats: ['3 مقاعد', 'مقعدين'] },
@@ -25,7 +25,7 @@ const T = {
   en: {
     client: { label: 'Example client', name: 'Dar Living', desc: 'A small family furniture showroom in Riyadh since 2009. Beautiful pieces, fair prices, but a silent account and visitors only from the neighbourhood.', goal: 'Goal: a busy showroom and online sales across the Kingdom' },
     example: 'Example: Dar Living · Riyadh',
-    s1: { now: 'Today', nowItems: ['312 Instagram followers', '2 enquiries a week', '0 showroom visits from social', 'Last post 23 days ago'], who: 'The real customer', next: 'Next persona', goal: 'Goals in 6 months', goals: ['An online store with 3D in 6 weeks', '180 enquiries a month', '60 showroom visits a month'], plan: 'Plan', planSteps: ['Research', 'AI content', '3D store', 'DMs', 'Ads'],
+    s1: { now: 'Today', nowItems: ['312 Instagram followers', '2 enquiries a week', '0 showroom visits from social', 'Last post 23 days ago'], who: 'The real customer', next: 'Next persona', goal: 'Goals in 6 months', goals: ['An online store with 3D in 6 weeks', '180 enquiries a month', '60 showroom visits a month'], plan: 'Plan', planSteps: ['Research', '3D store', 'DMs', 'Ads'],
       personas: [{ name: 'Sara & Mohammed, 27', role: 'Newly-weds · furnishing a first home', quote: 'We want a stylish living room on a sensible budget, and to see the piece in a real home before we decide.' }, { name: 'Abu Khalid, 44', role: 'Family moving to a new villa', quote: 'I want to furnish the whole house in one place, with instalments and assembly.' }, { name: 'Reem, 35', role: 'Office manager · buying for a company', quote: 'I need a formal quote and fast delivery for 20 chairs.' }],
       comp: 'Competitors in Riyadh', compRows: [['Competitor A', 'posts 3×/week', 'replies after 6 h'], ['Competitor B', 'no website', 'ignores comments'], ['Dar Living + Magmafy', 'daily', 'replies in minutes']] },
     s2: { before: 'Before · phone photo', after: 'After · AI scene', drag: 'Drag the line to compare', sl: 'Before and after comparison', items: [['ba-v', 'Velvet sofa'], ['ba-c', 'Orange chair'], ['ba-l', 'Leather sofa']], kept: ['Same shape', 'Same material', 'Same colour'], ai: 'AI-generated scene' },
@@ -316,7 +316,7 @@ function growth() {
       h('p', { class: 'jx-hint' }, s.sample)));
 }
 
-export const JOURNEY_VIEWS = [board, aiCompare, miniShop, automation, aiChat, growth];
+export const JOURNEY_VIEWS = [board, miniShop, automation, aiChat, growth];
 
 export function clientCard() {
   const c = tx().client;
