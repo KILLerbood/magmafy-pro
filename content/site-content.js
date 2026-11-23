@@ -151,7 +151,7 @@ window.MG_CONTENT = {
             "label": "اجتماع أول مدته 30 دقيقة"
           }
         ],
-        "note": "نتائج كل عميل تختلف، ونقيسها على حملتك أنت: استفسارات، زيارات، وتكلفة كل نتيجة."
+        "note": "نتائج كل عميل تختلف، ونقيسها على حملتك أنت: استفسارات، زيارات، وتكلفة كل نتيجة. موسم الجمعة البيضاء (27 نوفمبر) على الأبواب والمعارض تجهّز حملاتها الآن، فالبدء هذا الأسبوع هو الأنسب."
       },
       "about": {
         "eyebrow": "فريق واحد. كل ما يحتاجه معرضك ليبيع أونلاين.",
@@ -185,7 +185,7 @@ window.MG_CONTENT = {
       "servicesIntro": {
         "eyebrow": "ابدأ بخدمة واحدة",
         "title": "إعلانات ورسائل تتحوّل إلى زيارات",
-        "text": "هذه نقطة البداية: نشغّل الإعلانات ونحوّل كل رسالة إلى موعد زيارة. وبعد أول نتيجة تضيف الباقي.",
+        "text": "هذه نقطة البداية: نشغّل الإعلانات ونحوّل كل رسالة إلى موعد زيارة. وبعد أول نتيجة تضيف الباقي. وأول المعارض معنا تبدأ بسعر تجريبي، مقابل حق توثيق النتيجة ونشرها بإذنك.",
         "more": "افتح الخدمة",
         "featuredBadge": "ابدأ من هنا",
         "featuredCta": "ابدأ بهذه الخدمة",
@@ -285,7 +285,7 @@ window.MG_CONTENT = {
           {
             "title": "الإعلانات والنتائج",
             "tag": "الشهر 1–6",
-            "text": "حملات لكل جمهور، ونتابع المتابعين والاستفسارات وزيارات المعرض شهرًا بشهر. حرّك الشريط لتشاهد التطور."
+            "text": "نضبط القياس قبل أول ريال إعلان، ثم حملات لكل جمهور، ونتابع المتابعين والاستفسارات وزيارات المعرض شهرًا بشهر. حرّك الشريط لتشاهد التطور."
           }
         ]
       },
@@ -308,14 +308,14 @@ window.MG_CONTENT = {
           },
           {
             "title": "أرقام واضحة وبيانات محمية",
-            "text": "تقارير بالاستفسارات والزيارات والطلبات، ميزانية الإعلانات من حسابك مباشرة، والتزام بنظام حماية البيانات الشخصية."
+            "text": "نضبط القياس قبل أول ريال إعلان، وتقارير بالاستفسارات والزيارات والطلبات، وميزانية الإعلانات من حسابك مباشرة، والتزام بنظام حماية البيانات الشخصية."
           }
         ]
       },
       "portfolio": {
         "eyebrow": "أعمال مختارة",
         "title": "شغل تقدر تشوفه.",
-        "text": "نماذج حية لما نبنيه لعملائنا: معارض 3D، محتوى، إعلانات وتقارير. مرّر لتشاهد المشروع التالي.",
+        "text": "نماذج توضيحية لما نبنيه: معارض 3D، محتوى، إعلانات وتقارير. وأول دليل حقيقي نعرضه هنا سيكون نتيجة أول معرض يوافق على توثيقها. مرّر لتشاهد المشروع التالي.",
         "all": "كل الأعمال",
         "visit": "شاهد المشروع",
         "nextTitle": "مشروعك هو التالي؟",
@@ -331,6 +331,10 @@ window.MG_CONTENT = {
           {
             "q": "متى تظهر النتائج؟",
             "a": "تظهر المؤشرات الأولى (الوصول والتفاعل وحفظ المنشورات) خلال 4 إلى 6 أسابيع. ولأن قرار شراء الأثاث يأخذ وقتًا، تتضح نتائج الاستفسارات والمبيعات عادةً بين الشهر الثالث والسادس."
+          },
+          {
+            "q": "كيف تقيسون النتيجة؟",
+            "a": "قبل أول ريال إعلان نضبط القياس: المحادثات والرسائل على واتساب، وزيارات المعرض المؤكدة بموعد، وتكلفة الاستفسار الواحد. من غير قياس مضبوط من البداية تصبح النتيجة رأيًا لا رقمًا. ونسجّل الرسائل يومًا بيوم، ولا نغيّر الرسالة الإعلانية أو القناة أو المنطقة قبل أن نجمع 500 رسالة، حتى تأتي القرارات من أرقام لا من انطباع."
           },
           {
             "q": "هل تعملون مع غير معارض الأثاث؟",
@@ -350,7 +354,7 @@ window.MG_CONTENT = {
           },
           {
             "q": "هل هناك عقد طويل الأمد؟",
-            "a": "نبدأ بفترة تجريبية قصيرة ثم نتفق على مدة تناسبك. النتائج هي ما يبقي العميل، لا الالتزام الطويل."
+            "a": "نبدأ بفترة تجريبية قصيرة ثم نتفق على مدة تناسبك. النتائج هي ما يبقي العميل، لا الالتزام الطويل. ولأول المعارض معنا سعر تجريبي مقابل حق توثيق النتيجة ونشرها بموافقتك."
           },
           {
             "q": "كيف تتعاملون مع بياناتنا وحساباتنا؟",
@@ -847,7 +851,7 @@ window.MG_CONTENT = {
             "label": "30-minute first meeting"
           }
         ],
-        "note": "Results differ for every client, and we measure them on your own campaign: enquiries, visits and cost per result."
+        "note": "Results differ for every client, and we measure them on your own campaign: enquiries, visits and cost per result. White Friday (27 November) is close and showrooms are preparing their campaigns now, so starting this week is the best timing."
       },
       "about": {
         "eyebrow": "One team. Everything your showroom needs to sell online.",
@@ -881,7 +885,7 @@ window.MG_CONTENT = {
       "servicesIntro": {
         "eyebrow": "Start with one service",
         "title": "Ads and chats that turn into visits",
-        "text": "This is the starting point: we run your ads and turn every message into a booked showroom visit. After the first result, you add the rest.",
+        "text": "This is the starting point: we run your ads and turn every message into a booked showroom visit. After the first result, you add the rest. And our first showrooms start at a trial price, in exchange for the right to document the result and publish it with your permission.",
         "more": "Open service",
         "featuredBadge": "Start here",
         "featuredCta": "Start with this service",
@@ -981,7 +985,7 @@ window.MG_CONTENT = {
           {
             "title": "Ads & results",
             "tag": "Months 1–6",
-            "text": "Campaigns for every audience, tracked month by month in followers, enquiries and showroom visits. Move the slider to see it grow."
+            "text": "We set up measurement before the first riyal of ad spend, then run campaigns for every audience and track followers, enquiries and showroom visits month by month. Move the slider to see it grow."
           }
         ]
       },
@@ -1004,14 +1008,14 @@ window.MG_CONTENT = {
           },
           {
             "title": "Clear numbers, protected data",
-            "text": "Reports in enquiries, visits and orders, ad budget paid from your own account, and compliance with Saudi Arabia's Personal Data Protection Law."
+            "text": "We set up measurement before the first riyal of ad spend, with reports in enquiries, visits and orders, ad budget paid from your own account, and compliance with Saudi Arabia's Personal Data Protection Law."
           }
         ]
       },
       "portfolio": {
         "eyebrow": "Selected work",
         "title": "Work you can see.",
-        "text": "Live samples of what we build for clients: 3D showrooms, content, ads and reports. Scroll for the next project.",
+        "text": "Illustrative samples of what we build: 3D showrooms, content, ads and reports. The first real proof we show here will be the result of the first showroom that agrees to document it. Scroll for the next project.",
         "all": "All work",
         "visit": "View project",
         "nextTitle": "Is your project next?",
@@ -1027,6 +1031,10 @@ window.MG_CONTENT = {
           {
             "q": "When will we see results?",
             "a": "First signals (reach, engagement, saves) appear within 4 to 6 weeks. Because furniture purchases take time, enquiries and sales usually become clear between month three and month six."
+          },
+          {
+            "q": "How do you measure results?",
+            "a": "Before the first riyal of ad spend we set up measurement: conversations and WhatsApp messages, showroom visits confirmed with an appointment, and the cost of each enquiry. Without measurement set up from day one, the result is an opinion, not a number. We log messages day by day, and we don't change the ad message, the channel or the area before we've collected 500 messages, so decisions come from numbers, not impressions."
           },
           {
             "q": "Do you work with businesses outside furniture?",
@@ -1046,7 +1054,7 @@ window.MG_CONTENT = {
           },
           {
             "q": "Is there a long-term contract?",
-            "a": "We start with a short trial period, then agree on a term that suits you. Results keep clients, not long lock-ins."
+            "a": "We start with a short trial period, then agree on a term that suits you. Results keep clients, not long lock-ins. Our first showrooms get a trial price in exchange for the right to document the result and publish it with your approval."
           },
           {
             "q": "How do you handle our data and accounts?",
